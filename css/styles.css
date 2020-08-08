@@ -1,0 +1,59 @@
+body {
+  background-color: #0a192f;
+}
+
+#number-color {
+  color: #64ffda;
+}
+.navbar {
+  background-color: #0a192f !important;
+  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.jumbotron {
+  background-color: #0a192f;
+}
+
+.jumbotron .lead .first-text {
+  background-color: #64ffda !important;
+}
+
+.nav-item .nav-link .number-color {
+  color: #64ffda;
+}
+
+.container {
+  color: #64ffda;
+  font-style: normal;
+  font-weight: 400;
+  size: 20px;
+  line-height: 26px;
+}
+
+.container .display-4 {
+  color: #ccd6f6;
+  font-style: normal;
+  font-weight: 600;
+  size: 80px;
+  line-height: 88px;
+}
+
+.container .display-3 {
+  color: #8892b0;
+  font-style: normal;
+  font-weight: 600;
+  size: 80px;
+  line-height: 88px;
+}
+
+.container .lead {
+  color: #8892b0;
+  font-style: normal;
+  font-weight: 400;
+  size: 20px;
+  line-height: 26px;
+}
