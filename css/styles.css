@@ -5,7 +5,13 @@ body {
 #number-color {
   color: #64ffda;
 }
+
+.brand-logo {
+  padding-left: 50px;
+}
 .navbar {
+  padding-right: 50px;
+  padding-top: 25px;
   background-color: #0a192f !important;
   box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.1);
 }
@@ -15,6 +21,8 @@ body {
 }
 
 .jumbotron {
+  padding-top: 80px;
+  padding-left: 100px;
   background-color: #0a192f;
 }
 
@@ -22,15 +30,16 @@ body {
   background-color: #64ffda !important;
 }
 
-.nav-item .nav-link .number-color {
-  color: #64ffda;
+.nav-item {
+  font-size: 13px;
+  line-height: 17px;
 }
 
 .container {
   color: #64ffda;
   font-style: normal;
   font-weight: 400;
-  size: 20px;
+  font-size: 16px;
   line-height: 26px;
 }
 
@@ -38,7 +47,8 @@ body {
   color: #ccd6f6;
   font-style: normal;
   font-weight: 600;
-  size: 80px;
+  font-size: 80px;
+
   line-height: 88px;
 }
 
@@ -46,7 +56,7 @@ body {
   color: #8892b0;
   font-style: normal;
   font-weight: 600;
-  size: 80px;
+  font-size: 80px;
   line-height: 88px;
 }
 
@@ -54,6 +64,9 @@ body {
   color: #8892b0;
   font-style: normal;
   font-weight: 400;
-  size: 20px;
+  font-size: 20px;
   line-height: 26px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-right: 600px;
 }
