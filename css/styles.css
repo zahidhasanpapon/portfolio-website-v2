@@ -2,37 +2,68 @@ body {
   background-color: #0a192f;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  padding-left: 0px;
+  padding-right: 50px;
+  background-color: #0a192f !important;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  pointer-events: auto !important;
+  user-select: auto !important;
+  width: 100%;
+}
+
+.brand-logo {
+  height: 50px;
+  width: 42px;
+  padding-left: 50px;
+}
+
+.navbar .brand-logo:hover,
+.navbar .brand-logo:focus {
+  text-decoration: none;
+  display: block;
+  background-color: red;
+}
+
+.collapse .nav-link:hover,
+.collapse .nav-link:focus {
+  text-decoration-color: #64ffda;
+
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+
 #number-color {
   color: #64ffda;
 }
 
-.brand-logo {
-  padding-left: 50px;
-}
-.navbar {
-  padding-right: 50px;
-  padding-top: 25px;
-  background-color: #0a192f !important;
-  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.1);
+#intro-text-1 {
+  padding-top: 100px;
+  color: #64ffda;
 }
 
 .navbar .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
+.nav-item {
+  font-size: 13px;
+  line-height: 17px;
+}
+
 .jumbotron {
-  padding-top: 80px;
+  padding-top: 150px;
   padding-left: 100px;
   background-color: #0a192f;
 }
 
 .jumbotron .lead .first-text {
   background-color: #64ffda !important;
-}
-
-.nav-item {
-  font-size: 13px;
-  line-height: 17px;
 }
 
 .container {
@@ -48,7 +79,6 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
-
   line-height: 88px;
 }
 
@@ -69,4 +99,98 @@ body {
   padding-top: 30px;
   padding-bottom: 50px;
   padding-right: 600px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  About
+/*-----------------------------------------------------------------------------------*/
+#about {
+  padding-top: 150px;
+  padding-left: 100px;
+  width: 100%;
+  height: auto;
+  background: #0a192f;
+  padding-top: 120px;
+}
+
+#about .div-img-bg {
+  padding-bottom: 30px;
+  border: 5px solid #64ffda;
+}
+
+#about .div-img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#about .about-description .p-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  text-align: left;
+  color: #ccd6f6;
+}
+
+#about .about-description .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+  color: #8892b0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Educational Background 
+/*-----------------------------------------------------------------------------------*/
+.resume {
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 20ox;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffb727;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
 }
